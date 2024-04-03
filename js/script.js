@@ -1,5 +1,23 @@
-// Copyright (c) 2020 Mr. Coxall All rights reserved
+// Copyright (c) 2024 Manya All rights reserved
 //
-// Created by: Mr. Coxall
-// Created on: Sep 2020
+// Created by: Manya
+// Created on: Apr 2024
 // This file contains the JS functions for index.html
+
+"use strict"
+
+/**
+ * This function calculates volume of a pyramid.
+ */
+function calculateVolumeOfPyramid() {
+  // input
+  const length = parseFloat(document.getElementById("length-of-pyramid").value)
+  const width = parseFloat(document.getElementById("length-of-pyramid").value)
+  const height = parseFloat(document.getElementById("length-of-pyramid").value)
+
+  // process
+  const volumeOfPyramid = (lengthOfPyramid * widthOfPyramid * heightOfPyramid) / 3
+
+  // output
+  document.getElementById('volume').innerHTML = 'Volume is: ' + volumeOfPyramid + ' mm³'
+}

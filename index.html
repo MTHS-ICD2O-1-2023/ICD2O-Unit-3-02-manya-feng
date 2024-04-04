@@ -36,22 +36,24 @@
         <form action="#">
           Length:
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="length" aria-label="Length" />
+            <input class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" id="length-number" step="0.01" />
+            <label class="mdl-textfield__label" for="length-number">length here ...</label>
             <span class="mdl-textfield__error">Input is not a number.</span>
           </div>
           mm
           <br />
           Width:
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="width" aria-label="Width" />
+            <input class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" id="width-number" step="0.01" />
+            <label class="mdl-textfield__label" for="width-number">Width here ...</label>
             <span class="mdl-textfield__error">Input is not a number.</span>
           </div>
           mm
           <br />
           Height:
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="height"
-              aria-label="Height" />
+            <input class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" id="height-number" step="0.01" />
+            <label class="mdl-textfield__label" for="height-number">Height here ...</label>
             <span class="mdl-textfield__error">Input is not a number.</span>
           </div>
           mm

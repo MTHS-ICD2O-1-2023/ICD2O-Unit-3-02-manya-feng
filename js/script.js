@@ -12,8 +12,8 @@
 function calculateVolumeOfPyramid() {
   // input
   const length = parseFloat(document.getElementById("length-of-pyramid").value)
-  const width = parseFloat(document.getElementById("length-of-pyramid").value)
-  const height = parseFloat(document.getElementById("length-of-pyramid").value)
+  const width = parseFloat(document.getElementById("width-of-pyramid").value)
+  const height = parseFloat(document.getElementById("height-of-pyramid").value)
 
   // process
   const volumeOfPyramid = (lengthOfPyramid * widthOfPyramid * heightOfPyramid) / 3
